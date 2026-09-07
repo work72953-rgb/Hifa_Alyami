@@ -21,7 +21,7 @@ export const voiceOverProjects = [
     id: 1,
     title: "تعليق صوتي 01",
     description: "نموذج من أعمال التعليق الصوتي وإنتاج المحتوى الإعلامي.",
-    media: "/voice-over/1.mp4",
+    media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788820138/1.mp4",
     type: "video",
   },
   {
@@ -29,7 +29,7 @@ export const voiceOverProjects = [
     title: "ليه 90% من رواد الأعمال يفشلون في جذب المستثمرين من أول دقيقة؟",
     description:
       "تعليق صوتي لمحتوى يناقش أبرز أسباب تعثر رواد الأعمال في جذب اهتمام المستثمرين، مع التركيز على قوة الانطباع الأول وطريقة تقديم الفكرة.",
-    media: "/voice-over/2.mp4",
+    media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788822671/2.mp4",
     type: "video",
   },
 
@@ -38,7 +38,7 @@ export const voiceOverProjects = [
     title: "أول 100 عميل",
     description:
       "تعليق صوتي لمحتوى ريادي يسلط الضوء على أهمية الوصول إلى أول العملاء وبناء قاعدة حقيقية تثبت قيمة المشروع وتدعم نموه.",
-    media: "/voice-over/3.mp4",
+    media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788822671/2.mp4",
     type: "video",
   },
 
@@ -47,7 +47,7 @@ export const voiceOverProjects = [
     title: "لو معاك مئة ألف ريال",
     description:
       "تعليق صوتي لفكرة تفتح مساحة للتفكير في كيفية استثمار رأس المال بذكاء وتحويل الموارد المتاحة إلى فرص حقيقية للنمو.",
-    media: "/voice-over/4.mp4",
+    media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788820374/4.mp4",
     type: "video",
   },
 
@@ -56,7 +56,7 @@ export const voiceOverProjects = [
     title: "لو معاك مئة ألف ريال — المقابلة الثانية",
     description:
       "استكمال لفكرة استثمار رأس المال من زاوية مختلفة، بصياغة صوتية تدعم المحتوى الحواري وتبني الفضول حول القرار الأفضل.",
-    media: "/voice-over/5.mp4",
+    media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788820523/5.mp44",
     type: "video",
   },
 
@@ -65,7 +65,7 @@ export const voiceOverProjects = [
     title: "لو يعطونك تمويل — المقطع الثاني",
     description:
       "تعليق صوتي لمحتوى يناقش أثر التمويل على المشاريع والقرارات التي قد تصنع الفرق بين مجرد الحصول على التمويل وتحقيق أثر فعلي.",
-    media: "/voice-over/6.mp4",
+    media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788820452/6.mp4",
     type: "video",
   },
 
@@ -74,7 +74,7 @@ export const voiceOverProjects = [
     title: "ليش 90% من رواد الأعمال؟",
     description:
       "تعليق صوتي لمحتوى ريادي يعتمد على سؤال مباشر يثير الفضول ويدفع الجمهور للتوقف والتفكير في أسباب تعثر نسبة كبيرة من المشاريع.",
-    media: "/voice-over/7.mp4",
+    media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788820526/7.mp4",
     type: "video",
   },
 
@@ -83,7 +83,7 @@ export const voiceOverProjects = [
     title: "مشروع مع شخصية عالمية — 01",
     description:
       "تعليق صوتي لمحتوى يستكشف فكرة بناء مشروع يجمع بين ريادة الأعمال والتعاون مع شخصية ذات حضور وتأثير عالمي.",
-    media: "/voice-over/8.mp4",
+    media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788820429/8.mp4",
     type: "video",
   },
 
@@ -92,7 +92,7 @@ export const voiceOverProjects = [
     title: "مشروع مع شخصية عالمية — 02",
     description:
       "استكمال لسلسلة المحتوى حول المشاريع والشراكات مع الشخصيات العالمية، بأسلوب صوتي يركز على الفكرة وقوة السرد.",
-    media: "/voice-over/9.mp4",
+    media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788820540/9.mp4",
     type: "video",
   },
 
