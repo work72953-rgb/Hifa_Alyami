@@ -55,7 +55,7 @@ export default function ContactPage() {
                 <p className="text-lg font-medium text-neutral-500">
                   واتساب
                 </p>
-                <p className="mt-1 text-lg font-bold text-neutral-900">
+                <p dir="ltr" className="mt-1 text-lg font-bold text-neutral-900">
                   {profile.whatsapp}
                 </p>
               </div>
