@@ -1,0 +1,2 @@
+import { services } from "@/data/profile";
+export default function Services(){ return <section className="bg-neutral-900 py-20 text-white"><div className="container-main"><span className="text-sm text-[#d6b46e]">مجالات العمل</span><div className="mt-8 grid gap-8 md:grid-cols-3">{services.map((s,i)=><div key={s.title} className="border-t border-white/20 pt-5"><div className="text-sm text-[#d6b46e]">0{i+1}</div><h3 className="mt-4 text-xl font-bold">{s.title}</h3><p className="mt-3 leading-8 text-white/65">{s.description}</p></div>)}</div></div></section>}

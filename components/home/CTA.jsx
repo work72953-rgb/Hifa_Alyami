@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function CTA(){ return <section className="py-24"><div className="container-main rounded-[2rem] bg-[#e9dfcc] p-10 text-center md:p-16"><h2 className="display-font text-4xl font-bold">لديك فكرة؟ خلّنا نحولها إلى قصة.</h2><p className="mx-auto mt-4 max-w-xl leading-8 text-neutral-600">إذا كنت تبحث عن محتوى واضح أو فكرة إبداعية أو خطة اتصال، يمكن أن نبدأ من هنا.</p><Link href="/contact" className="mt-7 inline-block rounded-full bg-neutral-900 px-7 py-3 font-bold text-white">تواصل معي</Link></div></section>}

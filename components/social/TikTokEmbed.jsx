@@ -1,0 +1,1 @@
+export default function TikTokEmbed({ url }) { return <a href={url} target="_blank" rel="noreferrer" className="block rounded-2xl bg-neutral-950 p-8 text-center font-bold text-white">فتح محتوى TikTok</a>; }

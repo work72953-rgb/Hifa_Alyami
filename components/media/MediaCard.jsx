@@ -1,0 +1,2 @@
+import Badge from "@/components/ui/Badge";
+export default function MediaCard({ item, onOpen }) { return <button onClick={() => onOpen(item)} className="group overflow-hidden rounded-3xl border border-[var(--line)] bg-white text-right"><div className="aspect-square bg-neutral-200 transition group-hover:scale-[1.02]" /><div className="p-5"><Badge>{item.category}</Badge><h3 className="mt-3 font-black">{item.title}</h3></div></button>; }
