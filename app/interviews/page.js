@@ -1,6 +1,5 @@
 import InterviewGrid from "@/components/interviews/InterviewGrid";
 import { interviews } from "@/data/interviews";
-
 export const metadata = {
   title: "اللقاءات الصحفية | ملف الأعمال",
   description: "نماذج من اللقاءات الصحفية المصورة ضمن ملف الأعمال.",
