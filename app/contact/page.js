@@ -1,7 +1,13 @@
+"use client";
+
 import { FaWhatsapp, FaMapPin } from "react-icons/fa";
-import { FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
+import {
+  FaXTwitter,
+  FaLinkedinIn,
+  FaTiktok,
+} from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import { ArrowUpLeft, Mail, Phone } from "lucide-react";
+import { ArrowUpLeft, Phone } from "lucide-react";
 
 import { profile } from "@/data/profile";
 
@@ -30,7 +36,7 @@ export default function ContactPage() {
         {/* -------------------------------------------------- */}
         {/* Main Contact Card */}
         {/* -------------------------------------------------- */}
-        <section className="mt-12 overflow-hidden rounded-[2rem] border border-neutral-200 bg-white shadow-[0_20px_60px_-35px_rgba(0,0,0,0.25)]">
+        <section className="mt-12 overflow-hidden rounded-4xl border border-neutral-200 bg-white shadow-[0_20px_60px_-35px_rgba(0,0,0,0.25)]">
           <div className="grid md:grid-cols-[1.15fr_0.85fr]">
             {/* ------------------------------------------------ */}
             {/* Left / Main Contact */}
@@ -117,7 +123,9 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <p className="text-xs font-medium text-neutral-500">الموقع</p>
+                  <p className="text-xs font-medium text-neutral-500">
+                    الموقع
+                  </p>
 
                   <p className="mt-0.5 text-sm font-bold text-neutral-900">
                     {profile.location}
@@ -161,24 +169,37 @@ export default function ContactPage() {
                 </p>
 
                 <div className="flex gap-2">
+                  {/* X */}
                   <a
                     href={profile.x}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="X"
-                    className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-neutral-300 transition-all hover:-translate-y-0.5 hover:border-[#b58a3a] hover:bg-[#b58a3a] hover:text-white"
+                    className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-neutral-300 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#b58a3a] hover:bg-[#b58a3a] hover:text-white"
                   >
                     <FaXTwitter size={18} />
                   </a>
 
+                  {/* LinkedIn */}
                   <a
                     href={profile.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
-                    className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-neutral-300 transition-all hover:-translate-y-0.5 hover:border-[#b58a3a] hover:bg-[#b58a3a] hover:text-white"
+                    className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-neutral-300 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#b58a3a] hover:bg-[#b58a3a] hover:text-white"
                   >
                     <FaLinkedinIn size={18} />
+                  </a>
+
+                  {/* TikTok */}
+                  <a
+                    href={profile.tiktok}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="TikTok"
+                    className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-neutral-300 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#b58a3a] hover:bg-[#b58a3a] hover:text-white"
+                  >
+                    <FaTiktok size={18} />
                   </a>
                 </div>
               </div>
@@ -190,7 +211,7 @@ export default function ContactPage() {
         {/* Voice Over CTA */}
         {/* -------------------------------------------------- */}
         <section
-          className="mt-8 rounded-[2rem] border border-[#b58a3a]/20 bg-[#b58a3a]/5 p-7 md:p-9"
+          className="mt-8 rounded-4xl border border-[#b58a3a]/20 bg-[#b58a3a]/5 p-7 md:p-9"
           dir="rtl"
         >
           <div className="flex flex-col justify-between gap-7 md:flex-row md:items-center">

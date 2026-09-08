@@ -1,6 +1,10 @@
 import { FaWhatsapp, FaMapPin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
+import {
+  FaXTwitter,
+  FaLinkedinIn,
+  FaTiktok,
+} from "react-icons/fa6";
 
 export const profile = {
   name: "هيفاء صالح علي اليامي",
@@ -11,6 +15,7 @@ export const profile = {
 
   x: "https://x.com/hixll2002?s=11&t=zaOwxsXa0hkpvkDbnaDYoA",
   linkedin: "https://www.linkedin.com/in/haifa-854815357/",
+  tiktok: "https://www.tiktok.com/@haif526?_r=1&_t=ZS-99Z7nQTZL2A",
 
   // Contact Icons
   mail_icon: <MdEmail size={24} />,
@@ -18,6 +23,7 @@ export const profile = {
   location_icon: <FaMapPin size={24} />,
   x_icon: <FaXTwitter size={22} />,
   linkedin_icon: <FaLinkedinIn size={22} />,
+  tiktok_icon: <FaTiktok size={22} />,
 
   bio: "متخصصة في العلاقات العامة والاتصال الإعلامي، بخبرة عملية في صناعة المحتوى الرقمي، العلاقات الإعلامية والاتصال المؤسسي. أعمل على تطوير الأفكار وكتابة المحتوى وبناء الرسائل الاتصالية التي تخدم أهداف الجهات والعلامات التجارية، إلى جانب اهتمامي بالتقديم والتعليق الصوتي بالفصحى والعامية.",
 
@@ -50,3 +56,4 @@ export const services = [
       "المساهمة في إعداد المواد الإعلامية والرسائل الاتصالية وتنظيم المبادرات والفعاليات ودعم الظهور الإعلامي للجهات.",
   },
 ];
+
