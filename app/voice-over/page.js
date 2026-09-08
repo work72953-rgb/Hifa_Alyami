@@ -2,33 +2,40 @@ import VoiceOverGrid from "@/components/voice-over/VoiceOverGrid";
 import { voiceOverProjects } from "@/data/voiceOver";
 
 export const metadata = {
-  title: "التعليق الصوتي | ملف الأعمال",
+  title: "التعليق الصوتي | هيفاء صالح اليامي",
   description:
-    "نماذج من أعمال التعليق الصوتي وإنتاج المحتوى الإعلامي.",
+    "ملف نماذج التعليق الصوتي لهيفاء صالح اليامي، بالفصحى واللهجة العامية.",
 };
 
 export default function VoiceOverPage() {
   return (
-    <main className="py-20">
+    <main className="py-16 md:py-20">
       <div className="container-main">
-        <div className="max-w-3xl">
-          {/* <span className="text-sm font-medium text-black/50">
-            ملف الأعمال
-          </span> */}
+        <span className="text-sm text-[#b58a3a]">ملف التعليق الصوتي</span>
+        <h1 className="display-font mt-3 text-5xl font-bold">التعليق الصوتي</h1>
+        <p className="mt-6 max-w-3xl text-lg leading-9 text-neutral-600">
+          مجموعة من نماذج الأداء الصوتي التي تعكس المرونة في النبرة والإلقاء،
+          مع إمكانية تقديم النصوص بالفصحى أو باللهجة العامية بحسب طبيعة المحتوى
+          والجمهور.
+        </p>
 
-          <h1 className="display-font mt-3 text-5xl font-bold leading-tight md:text-6xl">
-            التعليق الصوتي
-          </h1>
-
-          <p className="mt-6 max-w-2xl text-base leading-8 text-black/65 md:text-lg">
-            نماذج من أعمال التعليق الصوتي التي تعكس القدرة على تقديم
-            المحتوى بأسلوب واضح ومؤثر، مع توظيف الصوت بما يتناسب مع
-            طبيعة الرسالة والمحتوى.
-          </p>
+        <div className="mt-8 flex flex-wrap gap-2 text-sm text-neutral-600">
+          <span className="rounded-full border border-neutral-300 px-4 py-2">
+            فصحى
+          </span>
+          <span className="rounded-full border border-neutral-300 px-4 py-2">
+            عامية
+          </span>
+          <span className="rounded-full border border-neutral-300 px-4 py-2">
+            محتوى رقمي
+          </span>
+          <span className="rounded-full border border-neutral-300 px-4 py-2">
+            سرد وتقديم
+          </span>
         </div>
 
-        <div className="mt-14">
-          <VoiceOverGrid projects={voiceOverProjects} />
+        <div className="mt-12">
+          <VoiceOverGrid items={voiceOverProjects} />
         </div>
       </div>
     </main>

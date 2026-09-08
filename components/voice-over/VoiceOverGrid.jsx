@@ -1,10 +1,10 @@
 import VoiceOverCard from "./VoiceOverCard";
 
-export default function VoiceOverGrid({ projects }) {
+export default function VoiceOverGrid({ items }) {
   return (
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-      {projects.map((project) => (
-        <VoiceOverCard key={project.id} project={project} />
+      {items.map((item) => (
+        <VoiceOverCard key={item.id} item={item} />
       ))}
     </div>
   );

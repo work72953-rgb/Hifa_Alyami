@@ -14,7 +14,7 @@ export default function InterviewCard({ interview }) {
       </div>
 
       <div className="p-6">
-        {/* <span className="text-xs font-bold text-[#b58a3a]">لقاء صحفي</span> */}
+        <span className="text-xs font-bold text-[#b58a3a]">لقاء صحفي</span>
         <h2 className="mt-2 text-xl font-bold">{interview.title}</h2>
         <p className="mt-3 leading-7 text-neutral-600">{interview.description}</p>
       </div>

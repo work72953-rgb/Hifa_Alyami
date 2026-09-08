@@ -4,7 +4,7 @@ export default function SocialPage() {
   return (
     <main className="py-20">
       <div className="container-main">
-        {/* <span className="text-sm text-[#b58a3a]">الحضور الرقمي</span> */}
+        <span className="text-sm text-[#b58a3a]">الحضور الرقمي</span>
         <h1 className="display-font mt-3 text-5xl font-bold">الحضور الرقمي</h1>
         <p className="mt-6 max-w-2xl leading-8 text-neutral-600">
           نماذج من المحتوى المنشور والحضور الاتصالي الرقمي، مع مساحة لعرض المنشورات والحملات والمساهمات الرقمية بصورة منظمة واحترافية.
