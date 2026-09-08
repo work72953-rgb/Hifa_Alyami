@@ -95,6 +95,25 @@ export const voiceOverProjects = [
     media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788820540/9.mp4",
     type: "video",
   },
+{
+  id: 10,
+  title: "لاترهق قلبك بالتفكير في كل شئ",
+  description:
+    "محتوى صوتي تأملي يسلّط الضوء على أثر الإفراط في التفكير، ويدعو إلى التخفف من القلق الذهني ومنح النفس مساحة أكبر للهدوء والطمأنينة.",
+  media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788881287/10.mp4",
+  type: "video",
+},
+
+{
+  id: 11,
+  title: "أقرب نقطة للفضاء على كوكب الأرض",
+  description:
+    "محتوى معرفي يستعرض واحدة من أكثر الظواهر الجغرافية إثارة للاهتمام، ويتناول موقعًا يُعد من أقرب النقاط على سطح الأرض إلى الفضاء، بأسلوب مبسّط وجذاب.",
+  media: "https://res.cloudinary.com/bhdfcgyo/video/upload/v1788881416/11.mp4",
+  type: "video",
+},
+
+
 
   //   {
   //     id: 5,

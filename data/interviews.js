@@ -33,6 +33,6 @@ export const interviews = [
     id: 6,
     title: "لقاء صحفي 06",
     description: "نموذج من اللقاءات الصحفية المصورة ضمن الأعمال الإعلامية.",
-    video: "/videos/6.mp4",
+    video: "/videos/7.mp4",
   },
 ];

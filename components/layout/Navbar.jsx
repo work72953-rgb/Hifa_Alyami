@@ -21,7 +21,7 @@ export default function Navbar() {
             {" "}
             هيفاء اليامي{" "}
           </span>{" "}
-          <span className="absolute -bottom-1 right-0 h-[2px] w-0 bg-neutral-950 transition-all duration-300 group-hover:w-full" />{" "}
+          <span className="absolute -bottom-1 right-0 h-0.5 w-0 bg-neutral-950 transition-all duration-300 group-hover:w-full" />{" "}
         </Link>{" "}
         {/* Desktop Navigation */}{" "}
         <nav className="hidden items-center gap-2 md:flex">
@@ -74,7 +74,7 @@ export default function Navbar() {
       </div>{" "}
       {/* Mobile Navigation */}{" "}
       <div
-        className={`overflow-hidden border-t border-neutral-200/60 bg-[#f7f4ee]/95 transition-all duration-300 md:hidden ${open ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
+        className={`overflow-hidden border-t border-neutral-200/60 bg-[#f7f4ee]/95 transition-all duration-300 md:hidden ${open ? "max-h-125 opacity-100" : "max-h-0 opacity-0"}`}
       >
         {" "}
         <nav className="container-main py-5">
